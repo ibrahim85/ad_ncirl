@@ -1,24 +1,24 @@
 digraph Tree {
 node [shape=box] ;
-0 [label="CDRSB_bl <= -0.728\ngini = 0.642\nsamples = 100.0%\nvalue = [0.309, 0.455, 0.236]"] ;
-1 [label="Month_bl <= 0.021\ngini = 0.17\nsamples = 29.6%\nvalue = [0.908, 0.071, 0.021]"] ;
+0 [label="CDRSB_bl <= -0.609\ngini = 0.667\nsamples = 100.0%\nvalue = [0.333, 0.333, 0.333]"] ;
+1 [label="Years_bl <= 0.019\ngini = 0.137\nsamples = 32.1%\nvalue = [0.927, 0.048, 0.025]"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label="gini = 0.038\nsamples = 16.8%\nvalue = [0.98, 0.018, 0.001]"] ;
+2 [label="gini = 0.028\nsamples = 19.3%\nvalue = [0.986, 0.013, 0.001]"] ;
 1 -> 2 ;
-3 [label="gini = 0.317\nsamples = 12.8%\nvalue = [0.813, 0.141, 0.046]"] ;
+3 [label="gini = 0.283\nsamples = 12.8%\nvalue = [0.838, 0.101, 0.06]"] ;
 1 -> 3 ;
-4 [label="CDRSB_bl <= 0.88\ngini = 0.51\nsamples = 70.4%\nvalue = [0.057, 0.617, 0.326]"] ;
+4 [label="CDRSB_bl <= 0.278\ngini = 0.549\nsamples = 67.9%\nvalue = [0.053, 0.468, 0.479]"] ;
 0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
-5 [label="ST91TA_UCSFFSX_11_02_15_UCSFFSX51_08_01_16 <= 0.325\ngini = 0.416\nsamples = 55.2%\nvalue = [0.071, 0.736, 0.193]"] ;
+5 [label="M <= -0.455\ngini = 0.483\nsamples = 40.9%\nvalue = [0.084, 0.67, 0.246]"] ;
 4 -> 5 ;
-6 [label="gini = 0.534\nsamples = 20.4%\nvalue = [0.07, 0.586, 0.344]"] ;
+6 [label="gini = 0.275\nsamples = 18.6%\nvalue = [0.062, 0.844, 0.094]"] ;
 5 -> 6 ;
-7 [label="ST29SV_UCSFFSX_11_02_15_UCSFFSX51_08_01_16 <= 0.378\ngini = 0.304\nsamples = 34.7%\nvalue = [0.072, 0.825, 0.104]"] ;
+7 [label="gini = 0.574\nsamples = 22.4%\nvalue = [0.101, 0.526, 0.373]"] ;
 5 -> 7 ;
-8 [label="gini = 0.364\nsamples = 12.5%\nvalue = [0.022, 0.769, 0.209]"] ;
-7 -> 8 ;
-9 [label="gini = 0.255\nsamples = 22.2%\nvalue = [0.1, 0.856, 0.044]"] ;
-7 -> 9 ;
-10 [label="gini = 0.308\nsamples = 15.2%\nvalue = [0.006, 0.183, 0.811]"] ;
-4 -> 10 ;
+8 [label="MMSE_bl <= -0.926\ngini = 0.281\nsamples = 27.0%\nvalue = [0.006, 0.161, 0.832]"] ;
+4 -> 8 ;
+9 [label="gini = 0.057\nsamples = 13.1%\nvalue = [0.0, 0.029, 0.971]"] ;
+8 -> 9 ;
+10 [label="gini = 0.425\nsamples = 13.9%\nvalue = [0.012, 0.285, 0.703]"] ;
+8 -> 10 ;
 }
